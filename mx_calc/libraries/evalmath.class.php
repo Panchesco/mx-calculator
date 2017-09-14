@@ -104,7 +104,7 @@ class EvalMath {
         'mod'=>array( 2 ),      'pi'=>array( 0 ),    'power'=>array( 2 ),
         'round'=>array( 1, 2 ), 'sum'=>array( -1 ) );
 
-    function EvalMath() {
+    function __construct() {
     }
 
     function e( $expr ) {
